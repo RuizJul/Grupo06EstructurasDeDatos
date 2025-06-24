@@ -288,7 +288,7 @@ public class CreateEmpresaController implements Initializable {
     @FXML
     private void guardarContacto(ActionEvent event) {
 
-        if (!txtNombres.getText().isEmpty() && !txtApellidos.getText().isEmpty() && comboPrefijos2.getValue() != null && !txtTelefono.getText().isEmpty() && fotos.size() >= 2) {
+        if (!txtNombres.getText().isEmpty() && !txtApellidos.getText().isEmpty() && comboPrefijos2.getValue() != null && !txtTelefono.getText().isEmpty()) {
             String nombres = txtNombres.getText();
             String apellidos = txtApellidos.getText();
             String genero = "";
